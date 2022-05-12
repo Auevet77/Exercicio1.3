@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <img src="imagens/logo.png" title="Logotipo do Senac">
+    <h1>São Miguel Paulista</h1>
+    <hr>
+    <H2>Contato</H2>
+    <form name="mensagem" method="post" action="sucesso.html">
+        <label for="txtNome">SEU NOME *</label>
+        <br>
+        <input type="text" id="txtNome" placeholder="admin" title="Digite o nome" required>
+        <br><br>
+        <label for="txtEmail">SEU EMAIL *</label>
+        <br>
+        <input type="text" id="txtEmail" placeholder="seuemail@email" title="Digite o email" required>
+        <br><br>
+        <label for="txtTelefone">TELEFONE</label>
+        <br>
+        <input type="text" id="txtTelefone" placeholder="(00) 00000-0000" title="Digite o email" maxlength="11" minlength="10">
+        <br><br>
+        <label for="sltAssunto">ASSUNTO *</label>
+        <br>
+        <select name="" id="sltAssunto">
+            <option value="SelecioneUmaOpção">selecione uma opção</option>
+            <option value="Duvidas">Dúvidas</option>
+            <option value="Elogios">Elogios</option>
+            <option value="Reclamacoes">Reclamações</option>
+            <option value="Solicitacoes">Solicitações</option>
+            <option value="Outros">Outros</option>
+        </select>
+        <br><br>
+        <label for="txtMensagem">MENSAGEM *</label>
+        <br>
+        <textarea name="txtMensagem" id="" cols="30" rows="10" required></textarea>
+        <br><br>
+        <input type="checkbox" name="" id="enviarFormulario">
+        <label for="enviarFormulario">ENVIAR CÓPIA PARA VOCÊ</label>
+        <br><br><br>
+        <input type="submit" value="Enviar Mensagem" id="EnviarMensagem">
+
+    </form>
+    <br><br>
+    <a href="index.html">&laquo; Voltar</a>
+
+</body>
+</html>
