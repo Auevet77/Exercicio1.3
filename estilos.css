@@ -49,11 +49,37 @@ ol {
     margin: 50px 200px 200px 200px;
 }
 
-#logo {
-
-}
-
-img{
+img {
     background-color: #f68b1f;
     padding: 5px;
+    margin: 50px;
+}
+
+.index{
+    margin-bottom: 300px;
+}
+
+.esquerda {
+    float: left;
+}
+
+.direita{
+    float: right;
+}
+/* 
+.intervalo {
+    margin: 150px;
+} */
+
+.topo {
+    display: block;
+    margin-top: 220px;
+}
+
+p {
+    margin: 50px;
+}
+
+ul {
+    margin-bottom: 200px;
 }
