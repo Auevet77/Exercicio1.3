@@ -37,7 +37,7 @@ a:hover {
 }
 
 a:visited {
-    color: #f68b1f;
+    color: white;
 }
 
 ol {
@@ -82,4 +82,17 @@ p {
 
 ul {
     margin-bottom: 200px;
+}
+
+table {
+    float: 0px;
+    border: #004b8d;
+    border-width: 10px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+td, th {
+    border: 3px;
+    border-style: solid;
 }
