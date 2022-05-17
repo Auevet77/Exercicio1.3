@@ -77,7 +77,7 @@ img {
 }
 
 p {
-    margin: 50px;
+    margin: 0 auto;
 }
 
 ul {
@@ -85,7 +85,10 @@ ul {
 }
 
 table {
-    float: 0px;
+    display: block;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
     border: #004b8d;
     border-width: 10px;
     border-radius: 5px;
@@ -95,4 +98,40 @@ table {
 td, th {
     border: 3px;
     border-style: solid;
+}
+
+#logo {
+    background: none;
+    justify-content: 0 auto;
+}
+
+.frog{
+    display: flex;
+    justify-content: end;
+}
+
+.NossosNumeros{
+    display: block;
+    justify-content: center;
+    width: 950px;
+}
+
+.AnosAnteriores{
+    display: block;
+    justify-content: center;
+    width: 550px;
+}
+
+.unidades{
+    display: block;
+    justify-content: center;
+    width: 700px;
+}
+
+.icone{
+    background: none;
+}
+
+h3 {
+    text-align: center;
 }
